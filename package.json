@@ -1,0 +1,16 @@
+{
+  "name": "si-proj",
+  "version": "1.0.0",
+  "description": "SI Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node util/watch.js"
+  },
+  "author": "@abemillett",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "rsync": "^0.6.1"
+  }
+}
