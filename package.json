@@ -4,13 +4,13 @@
   "description": "SI Project",
   "main": "index.js",
   "scripts": {
+    "pull": "node util/pull.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "node util/watch.js"
   },
   "author": "@abemillett",
   "license": "MIT",
   "dependencies": {
-    "chokidar": "^1.7.0",
-    "rsync": "^0.6.1"
+    "chokidar": "^1.7.0"
   }
 }
